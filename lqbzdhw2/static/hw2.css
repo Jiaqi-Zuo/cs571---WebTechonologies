@@ -1,0 +1,42 @@
+﻿html{
+    width: 1200px;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Times New Roman';
+    color: darkred;
+}
+p#hint{
+    font-family: "Times New Roman";
+    color: darkred;
+    font-size: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button{
+    opacity:1;
+}
+
+.required:after {
+    content: " *";
+    color: red;
+}
+
+.required{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button{
+    background-color: steelblue;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+    font-size: 15px;
+}

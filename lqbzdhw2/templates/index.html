@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="{{ url_for('static', filename='hw2.css') }}" type="text/css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <title>Blood Pressure Predictor</title>
+</head>
+<body>
+
+    <h1>Blood Pressure Predictor</h1>
+    <p id="hint">Fill out the form to get your Blood Pressure estimate!</p>
+    <div class="div1">
+        <form action="" method="post">
+            <p><label class="required" style="padding-left:27px;">Age</label> <input type="number" name="ageVal" style="width: 180px;" required placeholder="Enter age in years" min="1" max="100"> </p>
+            <p><label class="required">Weight</label> <input type="number" name="weightVal" style="width: 180px;" required placeholder="Enter weight in kg" min="1"> </p>
+            <input type="submit" class="button"  value="Calculate"/>
+        </form>
+    </div>
+
+        <br/>
+        <h3>{{result}}</h3>
+
+
+</body>
+</html>
