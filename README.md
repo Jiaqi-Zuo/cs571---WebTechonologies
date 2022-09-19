@@ -2,7 +2,7 @@
 
 Jiaqi Zuo
 
-[Links to Homework](https://jiaqi-zuo.github.io/JZ0owdiaQi.html)
+[Links to Homework](https://jiaqi-zuo.github.io/cs571---WebTechnologies/coursework.html)
 
 
 Jiaqi-Zuo.github.io
